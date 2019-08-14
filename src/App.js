@@ -28,7 +28,6 @@ function App() {
         <Specials/>
         <Operators/>
         <Numbers/>
-        
       </div>
     </div>
   );
