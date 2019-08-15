@@ -1,0 +1,76 @@
+.logo {
+  width: 30%;
+}
+
+.container {
+  border-radius: 20px;
+  background-color: rgb(209, 55, 76);
+  max-width: 30%;
+  padding: 2%;
+}
+
+.display {
+  background-color: rgb(71, 70, 70);
+  border-radius: 40px;
+  padding: 6%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: right;
+  color: white;
+  font-size: 2rem;
+}
+
+button {
+    width: 20%;
+    height: 25%;
+    border-radius: 200%;
+    background-color: skyblue;
+    font-size: 1rem;
+  }
+
+.numButton {
+    width: 50px;
+    background-color: #154780;
+    color: white;
+    margin-right: 35px;
+    padding: .7rem;
+    margin: .6rem;
+    border: black;
+    border-bottom: 2px solid black;
+}  
+
+.numButton:nth-child(10) {
+    width: 120px;
+    border-radius: 30px;
+}
+
+.opButtonCon {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 240px;
+    top: 10.5rem;
+    width: 50px; 
+} 
+
+.opButton {
+    padding: 15px;
+    margin: 5.5px;
+    width: 50px;
+    color: white;
+    background-color: #1891af;
+    border: black;
+    border-bottom: 2px solid black;
+}
+.spButtonCon{
+    padding-right: 10px;
+}
+.spButton {
+    padding: .9rem;
+    margin: 9px;
+    width: 50px;
+    color: white;
+    background-color: #1a61b0;
+    border: black;
+    border-bottom: 2px solid black;
+}
